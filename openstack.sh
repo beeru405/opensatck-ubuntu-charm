@@ -9,3 +9,4 @@ juju deploy cs:neutron-api
 juju deploy cs:rabbitmq-server
 juju deploy cs:nova-cloud-controller
 juju deploy cs:percona-cluster
+juju deploy cs:neutron-gateway
