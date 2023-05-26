@@ -17,4 +17,5 @@ juju add-relation nova-cloud-controller:amqp rabbitmq-server:amqp
 juju add-relation nova-cloud-controller:identity-service keystone:identity-service
 juju add-relation nova-cloud-controller:image-service glance:image-service
 juju add-relation nova-cloud-controller:cloud-compute nova-compute:cloud-compute
-juju status
+juju add-relation neutron-gateway:amqp rabbitmq-server:amqp
+watch -n 5 juju status
