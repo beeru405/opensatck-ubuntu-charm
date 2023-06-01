@@ -12,3 +12,4 @@ juju deploy --channel zed/stable nova-cloud-controller
 juju deploy --channel 8.0/stable mysql-innodb-cluster
 juju deploy --channel 3.9/stable rabbitmq-server
 #juju deploy cs:neutron-gateway
+juju deploy --channel 8.0/stable mysql-router
